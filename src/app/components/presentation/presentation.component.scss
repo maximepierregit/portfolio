@@ -1,0 +1,43 @@
+p{
+    color: aliceblue;
+}
+
+app-three-jscanva{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+}
+
+#presentation-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+#text-presentation-container{
+    padding-top: 300px;
+    padding-left: 250px;
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+span {
+    color: yellow;
+}
+
+app-three-jscanva{
+    padding-top: 300px;
+}
+
+span, p {
+    font-family: 'Engineer', sans-serif;
+    font-size: 70px;
+}

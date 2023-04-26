@@ -1,0 +1,19 @@
+#principal-container {
+    width: 100%;
+    height: 100%;
+}
+app-mouse-tracker{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 15px;
+    height: 15px;
+    border-radius: 20px;
+    z-index: 9999;
+    pointer-events: none;
+    background-color: aqua;
+}
+
+app-presentation{
+    width: 100%;
+}
